@@ -25,7 +25,7 @@
 
         sniper-layer {
             bindings = <&mo 6>;
-            key-positions = <35 36>;
+            key-positions = <36 21>;
         };
     };
 
