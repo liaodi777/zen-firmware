@@ -54,7 +54,9 @@
 
     gesture {
         layers = <7>;
-        input-processors = <&zip_mouse_gesture>;
+        input-processors =
+            <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP)>,
+            <&zip_mouse_gesture>;
     };
 
 };
