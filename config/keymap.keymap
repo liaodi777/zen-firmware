@@ -112,5 +112,12 @@
         };
     };
 
+    layer_listeners {
+        compatible = "zmk,layer-listeners";
 
+        mouse_gesture {
+            layers = <7>;
+            bindings = <&mouse_gesture_on &mouse_gesture_off>;
+        };
+    };
 };
