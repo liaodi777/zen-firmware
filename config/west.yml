@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: sekigon-gonnoc
       url-base: https://github.com/sekigon-gonnoc
+    - name: ssbb
+      url-base: https://github.com/ssbb
     - name: kot149
       url-base: https://github.com/kot149
     - name: kumamuk-git
@@ -33,6 +35,12 @@ manifest:
       revision: main
     - name: zmk-scroll-snap
       remote: kot149
+      revision: v1
+    - name: zmk-mouse-gesture
+      remote: kot149
+      revision: v1
+    - name: zmk-listeners
+      remote: ssbb
       revision: v1
   self:
     path: config
