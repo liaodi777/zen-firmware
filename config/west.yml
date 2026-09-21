@@ -6,8 +6,6 @@ manifest:
       url-base: https://github.com/sekigon-gonnoc
     - name: kot149
       url-base: https://github.com/kot149
-    - name: ssbb
-      url-base: https://github.com/ssbb
     - name: kumamuk-git
       url-base: https://github.com/kumamuk-git
     - name: badjeff
@@ -39,10 +37,8 @@ manifest:
     - name: zmk-mouse-gesture
       remote: kot149
       revision: v1
-      path: modules/zmk-mouse-gesture
     - name: zmk-listeners
       remote: ssbb
       revision: v1
-      path: modules/zmk-listeners
   self:
     path: config
