@@ -1,0 +1,12 @@
+/ {
+    /omit-if-no-ref/ zip_mouse_gesture: zip_mouse_gesture {
+        compatible = "zen,input-processor-mouse-gesture";
+        #input-processor-cells = <0>;
+
+        layer = <7>;
+        threshold = <200>;
+
+        // Order: right, left, up, down.
+        bindings = <&mkp MB5 &mkp MB4 &none &none>;
+    };
+};
