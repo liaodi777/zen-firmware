@@ -112,30 +112,5 @@
         };
     };
 
-    layer_listeners {
-        compatible = "zmk,layer-listeners";
 
-        mouse_gesture {
-            layers = <7>;
-            bindings = <&mouse_gesture_on &mouse_gesture_off>;
-        };
-    };
-};
-
-&zip_mouse_gesture {
-    stroke-size = <200>;
-    idle-timeout-ms = <150>;
-    enable-eager-mode;
-    suppress-movement;
-    gesture-cooldown-ms = <0>;
-
-    history_back {
-        pattern = <GESTURE_LEFT>;
-        bindings = <&mkp MB4>;
-    };
-
-    history_forward {
-        pattern = <GESTURE_RIGHT>;
-        bindings = <&mkp MB5>;
-    };
 };
