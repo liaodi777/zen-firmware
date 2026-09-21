@@ -4,7 +4,6 @@
 
 &pointing_listener {
     input-processors =
-        <&zip_mouse_gesture>,
         <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
         <&zip_temp_layer 4 500>;
 
