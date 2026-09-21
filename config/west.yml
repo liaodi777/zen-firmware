@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: sekigon-gonnoc
       url-base: https://github.com/sekigon-gonnoc
+    - name: ssbb
+      url-base: https://github.com/ssbb
     - name: kot149
       url-base: https://github.com/kot149
     - name: kumamuk-git
