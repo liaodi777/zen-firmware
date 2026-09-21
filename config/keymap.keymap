@@ -5,6 +5,25 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <mouse-gesture.dtsi>
 
+#include <zephyr/dt-bindings/input/input-event-codes.h>
+
+&zip_mouse_gesture {
+    stroke-size = <200>;
+    enable-eager-mode;
+    suppress-movement;
+    gesture-cooldown-ms = <0>;
+
+    history_back {
+        pattern = <GESTURE_LEFT>;
+        bindings = <&mkp MB4>;
+    };
+
+    history_forward {
+        pattern = <GESTURE_RIGHT>;
+        bindings = <&mkp MB5>;
+    };
+};
+
 / {
     combos {
         compatible = "zmk,combos";
